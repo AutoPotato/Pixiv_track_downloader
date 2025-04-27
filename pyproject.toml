@@ -10,7 +10,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-pixiv-track-downloader = "pixiv_track_downloader:main"
+pixiv-track-downloader = "pixiv_track_downloader_cli.main:main"
 
 [build-system]
 requires = ["hatchling"]
