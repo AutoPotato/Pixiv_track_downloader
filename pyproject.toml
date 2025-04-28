@@ -7,10 +7,13 @@ authors = [
     { name = "AutoPotato", email = "a0905361233@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "PySide6==6.9.0"
+]
 
 [project.scripts]
 pixiv-track-downloader = "pixiv_track_downloader_cli.main:main"
+pixiv-track-downloader-desktop = "pixiv_track_downloader_desktop.main:main"
 
 [build-system]
 requires = ["hatchling"]
