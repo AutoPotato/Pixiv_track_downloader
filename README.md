@@ -23,4 +23,4 @@
 
 1. Artist PFP
 2. Artist Name
-3. 
+

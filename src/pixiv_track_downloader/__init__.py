@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from pixiv-track-downloader!")
+import importlib.metadata
+
+VERSION: str = importlib.metadata.version("pixiv-track-downloader")
